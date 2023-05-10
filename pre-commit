@@ -1,0 +1,3 @@
+#!/bin/bash
+# Load all pre-commit hooks
+source $(git rev-parse --show-toplevel)/.git/hooks/pre-commits/*

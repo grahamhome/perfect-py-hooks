@@ -1,0 +1,6 @@
+#!/bin/sh
+# isort
+# 1. Apply isort to all staged Python files
+isort $(git diff --staged --name-only --relative -- '*.py' 2>/dev/null) --quiet
+# 2. Update commit
+git update-index --again
