@@ -1,6 +1,6 @@
 #!/bin/sh
 # Black
 # 1. Apply Black to all staged Python files
-black $(git diff --staged --name-only --relative -- '*.py' 2>/dev/null) --line-length 120 --quiet 2>/dev/null
+black $(git diff --staged --name-only --relative -- '*.py' 2>/dev/null) --quiet 2>/dev/null
 # 2. Update commit
 git update-index --again
