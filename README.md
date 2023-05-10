@@ -24,7 +24,7 @@ For example purposes, we will add them to the repo `~/projects/py-project/`
 Once hooks are installed globally or for a specific project, simply add and commit files as you normally would. Committed files will automatically be formatted with Black and isort to ensure all your code is clean and PEP8 compliant!
 
 ## Bonus: Git Shortcuts
-If you use Git from the command line, these aliases will make your life easier. Simply add them to your `~/.bashrc` folder and memorize them for daily use.
+If you use Git from the command line, these aliases will make your life easier. Simply add them to your `~/.bashrc` file and memorize them for daily use.
 ```commandline
 # Handy Git shortcuts
 alias gpl="git pull"
