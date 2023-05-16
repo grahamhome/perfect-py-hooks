@@ -2,7 +2,7 @@
 This repo contains useful Git hooks for Python development. Hooks may be found in [hooks/pre-commits](hooks/pre-commits).
 ## Contents
 - [hooks/pre-commits/black](hooks/pre-commits/black): Runs [Black](https://pypi.org/project/black/) on all .py files included in each commit.
-- [hooks/pre-commits/isort](hooks/pre-commits/isort): Runs [isort](https://pycqa.github.io/isort/) on all .py files included in each commit.
+- [hooks/pre-commits/isort](hooks/pre-commits/isort): Runs [isort](https://pypi.org/project/isort/) on all .py files included in each commit.
 - [hooks/pre-commit](hooks/pre-commit): Executes all pre-commit hooks whenever `git commit` is run.
 ## Installation
 ### Global
