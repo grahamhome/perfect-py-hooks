@@ -24,6 +24,9 @@ For example purposes, we will add them to the repo `~/projects/py-project/`
 ## Usage
 Once hooks are installed globally or for a specific project, simply add and commit project files as you normally would. Committed Python (`.py`) files will automatically be formatted with Black and isort to ensure all your code is clean and PEP8 compliant!
 
+## Note
+You will need to ensure that the Black and isort Python packages are installed in your Python environment in order for these hooks to work. Simply install them with your package manager of choice e.g. `pip install black` and `pip install isort`.
+
 ## Bonus: Git Shortcuts
 If you use Git from the command line, these aliases will make your life easier. Simply add them to your `~/.bashrc` file and memorize them for daily use.
 ```commandline
