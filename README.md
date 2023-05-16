@@ -11,6 +11,7 @@ If you would like to use these hooks in all your Git repos:
 1. Execute the following commands one time only:
 	1. `git config --global init.templatedir '~/.git-templates'`
 	1. `cp -a ~/projects/py-hooks/. ~/.git-templates`
+	1. `rm ~/.git-templates/README.md`
 1. All Git repos created will now include the Python pre-commit hooks by default.
 	1. To add the hooks to an existing Git repo, run `git init` inside the repo.
 ### Per-Project
